@@ -8,7 +8,11 @@ public class ProjetoYoutube {
 		v[1] = new Video("Aula 12 de PHP");
 		v[2] = new Video("Aula 10 de HTML5");
 		
-		System.out.println(v[0].toString());
+		Inscrito i[] = new Inscrito[2];
+		i[0] = new Inscrito("José", 22, "M", "Zé");
+		i[1] = new Inscrito("Maria", 19, "F", "Mara");		
+		
+		System.out.println(i[0].toString());
 	}
 
 }
